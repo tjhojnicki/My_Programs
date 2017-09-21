@@ -17,10 +17,17 @@ public class ch3notesstartercode
 public static void main (String [] args)
 {
 
-/* ===============================================================
-	   String word = "apple";
+/**/
+		String word = "apple";
 		String word1 = "cat";
 		String word2 = "dog";
+
+		if (word.compareTo(word1)<0){//This is terrible, a semicolon ends the loop
+			System.out.println(word+" is before "+word1);
+			System.out.println("yea and cats are evil");
+		}
+		if(word1.compareTo(word2)<0)
+			System.out.println(word1+" is before "+word2);
 
 /*
 
